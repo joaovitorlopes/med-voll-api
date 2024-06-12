@@ -37,6 +37,10 @@ public class Medico {
         this.endereco = new Endereco(dados.endereco());
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -51,5 +55,17 @@ public class Medico {
 
     public Especialidade getEspecialidade() {
         return especialidade;
+    }
+
+    public void atualizarInformacoes(DadosAtualizacaoMedicos dados) {
+        if (dados.nome() != null) {
+            this.nome = dados.nome();
+        }
+        if (dados.telefone() != null) {
+            this.telefone = dados.telefone();
+        }
+        if (dados.enderecos() != null) {
+            this.endereco.atualizarInformacoes(dados.enderecos());
+        }
     }
 }
