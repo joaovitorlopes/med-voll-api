@@ -31,6 +31,9 @@ public class Consulta {
 
     private LocalDateTime data;
 
+    public Consulta(Long id, Medico medico, Paciente paciente, LocalDateTime data) {
+    }
+
     public Long getId() {
         return id;
     }
