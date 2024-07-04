@@ -1,5 +1,5 @@
 ### Description
-This API has the function of carrying out CRUD for patients and doctors, and also scheduling and canceling medical appointments.
+Rest API of the Voll.med application, containing CRUD functionalities for doctors and patients, as well as scheduling and canceling medical appointments.
 
 ### Technologies used
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
