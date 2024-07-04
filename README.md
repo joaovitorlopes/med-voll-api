@@ -1,6 +1,11 @@
 ### Description
 Rest API of the Voll.med application, containing CRUD functionalities for doctors and patients, as well as scheduling and canceling medical appointments.
 
+### Documentation Routes
+- .../swagger-ui.html
+- .../swagger-ui/**
+- .../v3/api-docs/**
+
 ### Technologies used
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
